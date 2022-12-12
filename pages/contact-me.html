@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+nav {
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0 2px 8px 3px rgb(88, 88, 88);
+}
+nav a {
+    color: white;
+    display: block;
+    padding: 1rem 2.5rem;
+    transition: 200ms all;
+}
+nav a:hover{
+    background-color: rgb(80, 80, 80);
+}
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 1rem;
+    text-align: center;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+}
+footer a {
+    display: block;
+    color: rgb(247, 231, 144);
+    width: fit-content;
+    margin: 0 auto;
+    transition: all 200ms;
+    
+}
+footer a:hover {
+    transform: scale(1.125);
+    color: white;
+}
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.contact-links a {
+    display: block;
+    border-radius: 4px;
+    background-color: rgb(223, 223, 223);
+    color: rgb(83, 83, 83);
+    box-shadow: 2px 2px 10px rgb(146, 146, 146);
+    padding: 1rem; 
+    transition: all 200ms;
+}
+.contact-links a:hover{
+    transform: translateY(-4px);
+    box-shadow: 2px 6px 10px rgb(146, 146, 146);
+
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact-me">Contact</a></li>
+        </ul>
+    </nav>
+    <h1 class="contact-header">Hello!</h1>
+    <div class="contact-links">
+        <a href="https://github.com/kstarczak">Vist my GitHub for more projects</a>
+        <a href="https://konradstar.dev/">Check out my portfolio website!</a>    </div>
+        <footer>
+        <a href="https://konradstar.dev/">Copyright &copy 2022 Konrad Starczak</a>
+    </footer>
+</body>
+</html>
