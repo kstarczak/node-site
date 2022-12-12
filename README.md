@@ -2,6 +2,6 @@
 
 This project was created for The Odin Project
 
-# Check out more of my projects
-# @ my portfolio site: https://konradstar.dev
-# Or @ my github page: https://github.com/kstarczak
+Check out more of my projects
+@ my portfolio site: https://konradstar.dev
+Or @ my github page: https://github.com/kstarczak
